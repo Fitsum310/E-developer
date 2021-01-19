@@ -85,12 +85,13 @@ margin-top:10%;
 .center {
   max-width: 21%;
   height: auto;
+}
   
   
  
   
   /* opacity: 10; */
-}
+
 .pic {
   position:absolute;
   width: 150% ;
@@ -100,8 +101,8 @@ margin-top:10%;
   bottom:30%;
   /* top: 5%;  */
    right:15%;
-  /* transform:translate(-50%,-50%);  */
-/* justify-content: center; */
+  /* transform:translate(-50%,-50%);  
+ justify-content: center; */
 }
 
 
@@ -516,6 +517,18 @@ ul {
   background: #162336;
   padding-bottom: 90px;
 }
+
+
+.logo_pi {
+  /* height: 50px;
+  width: 50px;
+  margin-left: 50%; */
+
+  width: 15%;
+  margin-left: 25%;
+}
+
+
 .footer-area .footer-top .single-widget .footer-log {
   margin-bottom: 24px;
 }
@@ -525,6 +538,16 @@ ul {
   font-weight: 600;
   text-transform: uppercase;
 }
+.widget-content{
+  margin-left: 150%;
+  width: 100%;
+  line-height: 2;
+   
+}
+
+/* .span {
+  float: right;
+} */
 .footer-area .footer-top .single-widget .widget-content p {
   font-size: 15px;
   font-weight: 400;
@@ -537,10 +560,19 @@ ul {
   color: #c6c6c6;
   line-height: 26px;
   margin-bottom: 3px;
+ 
 }
 .footer-area .footer-top .single-widget .widget-content .contact-info p span {
   color: #ffffff;
   font-weight: 600;
+ 
+}
+
+.contact-info {
+  
+  margin-left: 150%;
+  width: 250%;
+  line-height: 2;
 }
 .footer-area .footer-top .single-widget .widget-content ul {
   margin: 0;
